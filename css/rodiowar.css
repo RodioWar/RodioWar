@@ -1,0 +1,320 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Bitter', serif;
+	margin: 0px;
+	display: auto;
+}
+
+h3{
+	font-size: 12.5px;
+	border-bottom: 2px solid #080668; 
+}
+
+main{
+	margin: auto;
+	width: 1200px;
+}
+
+footer{
+	width: 100%;
+	color: white;
+	clear: both;
+	background-image: url('../imagenes/background.jpg'); 
+	background-size: 100% 400%;
+	position: relative;
+	top: 10px;
+}
+
+
+.portada{
+	width: 1200px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.titulos{
+	border: 2.5px solid black;
+	width: 1005px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	background: linear-gradient(0.25turn, #373737, #FFFFFF, #373737);
+}
+
+.titulos h2{
+	font-size: 40px;
+	font-family: 'Russo One', sans-serif;
+	padding: 7.5px 0px;
+	text-align: center;
+}
+
+.informacion{
+	width: 1010px;
+ 	float: left;
+}
+
+.juego img{
+	width: 210px;
+	height: 275px;
+}
+
+.header{
+	background-image: url('../imagenes/background.jpg'); 
+	background-size: 100% 320%;
+	font-family: 'Holtwood One SC', serif;
+	color: white;
+}
+
+.header div{
+	position: relative;
+	width: 1200px;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.menu{
+	font-size: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 35.5px;
+	margin-bottom: 35.5px;
+}
+
+.menu li:before{
+	content: '⇓';
+	font-size: 25px;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.logotipo{
+	display: inline-block;
+	margin-left: 30px;
+	height: 110px;
+}
+
+.logotipo img{
+	height: 100%;
+}
+
+.gameplay, .streaming, .noticias{
+	width: 1005px;
+	border-top: 0px solid black;
+	border-right: 2.5px solid black;
+	border-bottom: 2.5px solid black;
+	border-left: 2.5px solid black;
+}
+
+.juego{
+	width: 210px;
+	margin: 17px;
+	display: inline-grid;
+	border: 2px solid #080668; 
+}
+
+.juego h3{
+	font-size: 20px;
+	font-family: 'Russo One', sans-serif;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	text-align: center;
+}
+
+.juego div{
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	text-align: center;
+	border-top: 2.5px solid #080668;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 22.5px;
+	color: #7D0000;
+}
+
+.juego a{
+	text-decoration: none;
+}
+
+.juego div:hover { 
+    background-color: #B6B6B6;
+}
+
+.noticia{
+	width: 462px;
+	margin: 17px;
+	display: inline-grid;
+	border: 2px solid #080668; 
+}
+
+.noticia h3{
+	font-size: 30px;
+	font-family: 'Russo One', sans-serif;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	text-align: center;
+}
+
+.noticia div{
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	text-align: center;
+	border-top: 2.5px solid #080668;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 22.5px;
+	color: #7D0000;
+}
+
+.noticia div:hover{
+	background-color: #B6B6B6;
+}
+
+.redessociales{
+	padding: 5px;
+	float: right;
+	border: 2.5px solid black;
+	border-radius: 10px 0px 10px 0px;
+	width: 170px;
+	margin-top: 25px;
+}
+
+.redessociales div{
+	padding: 1.5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 2.5px solid black;
+	border-radius: 10px 0px 10px 0px;
+	background-color: #FBFF88;
+	height: 35px
+}
+
+.redessociales div:hover { 
+    background-color: #FFF000;
+}
+
+.etiqueta img{
+	height: 35px;
+}
+
+.etiqueta a{
+	font-size: 19px;
+	text-decoration: none;
+	float: right;
+	margin-top: 6px;
+  	margin-right: 7px;
+  	cursor: pointer;
+}
+
+.clearfix{
+	clear: both;
+}
+footer {
+	background-image: url('../imagenes/background.jpg'); 
+	background-position: bottom;
+	background-size: 100% 320%;
+	height: 250px;
+	font-family: 'Holtwood One SC', serif;
+	color: white;
+	justify-content: center;
+	flex: 1 1 100%;
+	display: flex;
+}
+
+section.contenedor {
+	margin: auto;
+	width: 1200px;
+	display: flex; 
+	flex-wrap: wrap;
+	margin: 0px;
+	align-content: flex-start;
+}
+
+.quicklinks {
+	display: flex;
+	flex: 1 1 50%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+div.ql{
+	display: flex;
+}
+
+div[class="ql"]:first-child {
+	flex: 1 1 100%;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Orbitron', sans-serif;
+}
+
+div.qls {
+	margin: 0px 12px;
+}
+
+.ql a, .qls a {
+	color: white;
+	text-decoration: none;
+}
+
+/*------*/
+
+.sobre {
+	display: flex;
+	flex: 1 1 50%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+div.sob {
+	display: flex;
+	flex: 1 1 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.sob a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Orbitron', sans-serif;
+}
+
+/*------*/
+
+.redes {
+	display: flex;
+	flex: 1 1 100%;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.redes img {
+	width: 50px;
+	height: 100%;
+	margin: 0px 20px;
+}
+
+/*------*/
+
+.frace {
+	display: flex;
+	flex: 1 1 100%;
+	justify-content: center;
+}
+
+.frace p {
+	color: white;
+	font-family: 'Coming Soon', cursive;
+}

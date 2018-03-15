@@ -1,0 +1,254 @@
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*-------------------------HEADER---------------------------------*/
+
+header {
+	background-image: url('../imagenes/background.jpg'); 
+	background-size: 100% 320%;
+	height: 127px;
+	font-family: 'Holtwood One SC', serif;
+	color: white;
+	justify-content: center;
+	flex: 1 1 100%;
+	display: flex;
+}
+
+header div {
+	width: 1200px;
+	margin: auto;
+	display: flex;
+}
+
+.logotipo{
+	display: flex;
+	height: 110px;
+	flex: 1 1 50%;
+	margin: auto;
+	margin-left: 30px;
+}
+
+.logotipo img{
+	height: 100%;
+}
+
+ul.menu {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex: 1 1 50%;
+	margin: auto 30px;
+	font-size: 20px;
+}
+
+.menu li:before{
+	display: inline-flex;
+	content: '⇓';
+	font-size: 25px;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+/*------------------------MAIN--CONTENIDO--------------------------------*/
+
+main{
+	display: flex;
+	width: 1200px;
+	min-height: 400px;
+	background-color: white;
+	margin: auto;	
+	flex-wrap: wrap;
+}
+
+main .contenido {
+	border: 5px solid black;
+	flex: 1 1 48%;
+	flex-wrap: wrap;
+	background-color: #FFEABD
+}
+
+h1, h2 {
+	flex: 1 1 100%;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+    margin: 20px auto;
+}
+
+h2 {
+	font-size: 15px;
+	font-family: 'Orbitron', sans-serif;
+	margin: 0px auto;
+}
+
+.foto {
+	border: 10px;
+	border-style: dashed double;
+	flex: 1 1 17%;
+}
+
+.foto img {
+	height: 500px;
+	margin: 15px;
+}
+
+.opinion {
+	padding: 0px 45px;
+	font-family: 'Coming Soon', cursive;
+}
+
+/*----------------------MAIN--CAPITULOS----------------------------------*/
+
+article {
+	box-sizing: border-box;
+	display: flex;
+	flex: 100%;
+	flex-wrap: wrap;
+}
+
+div.capitulo {
+	margin: 16px;
+	border: 3px dashed black;
+	background-color: #FBFF88;
+	border-radius: 20px 20px 20px 20px;
+	display: flex;
+	flex: 1 1 140px;
+	justify-content: center;
+	align-items: center;
+}
+
+div.capitulo:hover {
+	background-color: #FFF000;
+}
+
+article a {
+	text-decoration: none;
+	padding: 10px;
+	font-size: 35px;	
+}
+
+/*------------------------FOOTER----------------------------------*/
+
+footer {
+	background-image: url('../imagenes/background.jpg'); 
+	background-position: bottom;
+	background-size: 100% 320%;
+	height: 250px;
+	font-family: 'Holtwood One SC', serif;
+	color: white;
+	justify-content: center;
+	flex: 1 1 100%;
+	display: flex;
+}
+
+section.contenedor {
+	margin: auto;
+	width: 1200px;
+	display: flex; 
+	flex-wrap: wrap;
+	margin: 0px;
+	align-content: flex-start;
+}
+
+.quicklinks {
+	display: flex;
+	flex: 1 1 50%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+div.ql{
+	display: flex;
+}
+
+div[class="ql"]:first-child {
+	flex: 1 1 100%;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Orbitron', sans-serif;
+}
+
+div.qls {
+	margin: 0px 12px;
+}
+
+.ql a, .qls a {
+	color: white;
+	text-decoration: none;
+}
+
+/*------*/
+
+.sobre {
+	display: flex;
+	flex: 1 1 50%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+div.sob {
+	display: flex;
+	flex: 1 1 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.sob a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Orbitron', sans-serif;
+}
+
+/*------*/
+
+.redes {
+	display: flex;
+	flex: 1 1 100%;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.redes img {
+	width: 50px;
+	height: 100%;
+	margin: 0px 20px;
+}
+
+/*------*/
+
+.frace {
+	display: flex;
+	flex: 1 1 100%;
+	justify-content: center;
+}
+
+.frace p {
+	color: white;
+	font-family: 'Coming Soon', cursive;
+}
